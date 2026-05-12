@@ -17,7 +17,7 @@ app.use(cors());
 app.use(morgan('dev'));
 
 
-app.get("/", (req, res) => res.json({ message: "API is running" }));
+app.get("/", (req, res) => res.json({ message: "API is running hehe" }));
 app.use("/api/products", productRoutes);
 app.use("/api", usersRoutes);
 
